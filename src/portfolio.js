@@ -9,31 +9,32 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Farhan Ashraf",
+  title: "Hello Everyone, This is Farhan",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "www.mriceflame.co",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram and Twitter are also supported in the links!
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/mriceflame",
+  linkedin: "https://www.linkedin.com/in/s4a/",
+  gmail: "farhanashrafali30@gmail.com",
+  gitlab: "https://gitlab.com/mriceflame",
+  facebook: "https://www.facebook.com/mriceflame",
+  medium: "https://medium.com/@mriceflame",
+  stackoverflow: "https://stackoverflow.com/users/12279541/farhan-ashraf",
+  twitter: "https://twitter.com/mriceflame",
+  
+  display: true 
 };
 
-// Skills Section
+
 
 const skillsSection = {
   title: "What I do",
@@ -48,8 +49,7 @@ const skillsSection = {
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+
 
   softwareSkills: [
     {
@@ -114,21 +114,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Bahria University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelor's of Computer Science",
+      duration: "September 2018 - April 2022",
+      desc: "Semester 6",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Chair at IEEE Student Branch Bahria University",
+        "Student Mentor at IEEE Student Branch Baharia University"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Kips",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      subHeader: "Matric",
+      duration: "September 2014 - April 2016",
       desc:
         "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
@@ -364,7 +364,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "mriceflame", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
